@@ -1,0 +1,6 @@
+spring.cloud.config.uri=http://localhost:8888 
+spring.application.name=order-service 
+management.security.enabled=false
+management.endpoints.web.exposure.include=*
+spring.redis.url=redis://112604d74bdd4adc818150adf1d6417e@us1-flying-marten-30996.lambda.store:30996
+server.port=8084
