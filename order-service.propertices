@@ -4,3 +4,5 @@ management.security.enabled=false
 management.endpoints.web.exposure.include=*
 spring.redis.url=redis://112604d74bdd4adc818150adf1d6417e@us1-flying-marten-30996.lambda.store:30996
 server.port=8084
+spring.rabbitmq.addresses=amqps://dspymxwp:DNlr0Ffk8jAKfy6zbKHpcLP1DSKSaAzA@finch.rmq.cloudamqp.com/dspymxwp
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
